@@ -27,6 +27,7 @@
         <a href="#servicios">Servicios</a>
         <a href="#pagos">Pagos</a>
         <a href="#preguntas">Preguntas</a>
+        <a href="#visita">Visítenos</a>
         <a href="#contacto">Contacto</a>
       </nav>
 
@@ -134,7 +135,7 @@
 
           <article class="faq-card">
             <h3>¿Dónde están ubicados?</h3>
-            <p>Estamos en Venecia de San Carlos. Con gusto le orientamos por WhatsApp o por teléfono.</p>
+            <p>Estamos a 50 metros sur de la Iglesia Católica, en Venecia de San Carlos. <a class="link-arrow" href="#visita">Ver mapa y horario →</a></p>
           </article>
 
           <article class="faq-card">
@@ -145,13 +146,13 @@
       </div>
     </section>
 
-    <!-- ===== Footer / Contacto ===== -->
-    <footer id="contacto" class="footer">
+    <!-- ===== Contacto ===== -->
+    <section id="contacto" class="footer" aria-labelledby="contacto-title">
       <div class="container footer__inner">
         <div class="footer__lead">
           <img class="footer__mascot" src="assets/mascota.jpg" alt="Mascota de Distribuidora El Dorado" width="72" height="97" />
           <div>
-            <h2 class="footer__title">Todo para su mascota, y también sus pagos.</h2>
+            <h2 id="contacto-title" class="footer__title">Todo para su mascota, y también sus pagos.</h2>
             <p class="footer__text">Pase por Distribuidora El Dorado en Venecia o escríbanos. Con gusto le atendemos.</p>
           </div>
         </div>
@@ -167,10 +168,79 @@
           <ul class="footer__contacts">
             <li><span>WhatsApp</span><a href="https://wa.me/50685660110" target="_blank" rel="noopener">8566-0110</a></li>
             <li><span>Teléfono fijo</span><a href="tel:+50624721752">2472-1752</a></li>
-            <li><span>Ubicación</span><span>Venecia de San Carlos</span></li>
+            <li><span>Ubicación</span><a href="#visita">Venecia de San Carlos</a></li>
           </ul>
-          <p class="footer__copy">© 2026 Distribuidora El Dorado · Venecia de San Carlos</p>
         </div>
+      </div>
+    </section>
+
+    <!-- ===== Visítanos ===== -->
+    <section id="visita" class="visit" aria-labelledby="visit-title">
+      <div class="visit__grid">
+        <div class="visit__info">
+          <p class="visit__eyebrow"><span class="visit__eyebrow-line" aria-hidden="true"></span>Venga a visitarnos</p>
+          <h2 id="visit-title" class="visit__title">Estamos en el corazón de Venecia</h2>
+
+          <ul class="visit__facts">
+            <li>
+              <span class="visit__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 21s7-5.4 7-11a7 7 0 1 0-14 0c0 5.6 7 11 7 11z"/>
+                  <circle cx="12" cy="10" r="2.3"/>
+                </svg>
+              </span>
+              <div>
+                <p class="visit__label">Dirección</p>
+                <p class="visit__value">50 metros sur de la Iglesia Católica<br>Venecia, San Carlos, Alajuela</p>
+              </div>
+            </li>
+            <li>
+              <span class="visit__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="8.25"/>
+                  <path d="M12 8.2V12l2.8 1.8"/>
+                </svg>
+              </span>
+              <div>
+                <p class="visit__label">Horario</p>
+                <p class="visit__value">Lunes a sábado<br>7:00 a. m. – 6:00 p. m.</p>
+              </div>
+            </li>
+            <li>
+              <span class="visit__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3.2" y="5.8" width="17.6" height="12.4" rx="2.2"/>
+                  <path d="M3.2 10h17.6"/>
+                  <path d="M7 15h3.2"/>
+                </svg>
+              </span>
+              <div>
+                <p class="visit__label">Métodos de pago</p>
+                <p class="visit__value">Efectivo · SINPE Móvil<br>Visa · Mastercard · Amex</p>
+              </div>
+            </li>
+          </ul>
+
+          <a class="pill pill--orange pill--lg visit__maps" href="https://www.google.com/maps/search/?api=1&amp;query=Distribuidora+El+Dorado,+Venecia,+San+Carlos,+Alajuela" target="_blank" rel="noopener noreferrer">
+            Cómo llegar en Google Maps <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+
+        <div class="visit__map">
+          <iframe
+            title="Mapa de Distribuidora El Dorado en Venecia de San Carlos"
+            src="https://www.google.com/maps?q=Distribuidora+El+Dorado,+Venecia,+San+Carlos,+Alajuela&amp;output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-foot">
+      <div class="container">
+        <p class="footer__copy">© 2026 Distribuidora El Dorado · Venecia de San Carlos</p>
       </div>
     </footer>
 
